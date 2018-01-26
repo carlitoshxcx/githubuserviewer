@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "jquery": "^1.9.1",
+    "jquery": "^3.0.0",
     "popper": "^1.0.0",
     "whatwg-fetch": "^2.0.3"
   }
