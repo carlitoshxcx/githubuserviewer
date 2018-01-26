@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Teste Front-End Desbravador - Carlos Eduardo Gomes">
+    <meta name="author" content="Carlos Eduardo Gomes <carlitoshxcx@gmail.com>">
+
+    <title>GitHub User Viewer - Desbravador Front-End Test</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+  </head>
+
+  <body>
+	
+	  
+	  <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+	    <a class="navbar-brand col-sm-3 col-md-2 col-lg-2 mr-0" href="#"><small>GitHub User Viewer</small></a>
+	    <div class="input-group col-sm-7 col-md-8 col-lg-9 px-0">
+	      <input id="github-username" class="form-control form-control-dark w-100" type="text" placeholder="GitHub Username" aria-label="GitHub Username">
+	    </div>
+	    <ul class="navbar-nav px-3 col-sm-2 col-md-2 col-lg-1">
+	      <li class="nav-item text-nowrap">
+	        <a class="nav-link" href="#">Search</a>
+	      </li>
+	    </ul>
+	  </nav>
+	  <div class="container-fluid">
+	    <div class="row">
+	      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+	        <div class="sidebar-sticky">
+	          <ul class="nav flex-column">
+	            <li class="nav-item">
+	              <a id="personalinformation" class="nav-link" href="#"> <span data-feather="users"></span> Personal Information </a>
+	            </li>
+	            <li class="nav-item">
+	              <a id="repositories" class="nav-link" href="#"> <span data-feather="layers"></span> Repositories </a>
+	            </li>
+	          </ul>
+	        </div>
+	      </nav>
+	      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+	  
+	      	<h1 class="h2 border-bottom py-2">Personal Information</h1>
+	      	<div class="row">
+	      	  <div class="col-sm-3 col-md-3 col-lg-2 mt-2">
+	      	    <img class="img-thumbnail" src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif">
+	      	  </div>
+	      	  <div class="col-sm-6 col-md-9 col-lg-9 mt-4">
+	      	    <div class="mt-2">
+	      	        <h4 class="card-title">Carlos Eduardo Gomes <small><<a href="#">carlitoshxcx@gmail.com</a>></small> </h4>
+	      	        <div class="card-text"> About Carlos... </div>
+	      	    </div>
+	      	    <div class="mt-4">
+	      	        <button type="button" class="btn btn-sm btn-light mx-1">
+	      	          Following <span class="badge badge-light">9</span>
+	      	        </button>
+	      	        <button type="button" class="btn btn-sm btn-light mx-1">
+	      	          Followers <span class="badge badge-light">9</span>
+	      	        </button>
+	      	    </div>
+	      	  </div>
+	      	</div>    	<h1 class="h2 border-bottom py-2">
+	      	  Repositories
+	      	  <div class="btn-group dropdown px-4">
+	      	    <button type="button" class="btn btn-sm btn-secondary">Stars</button>
+	      	    <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	      	      <span class="sr-only">Toggle Dropdown</span>
+	      	    </button>
+	      	    <div class="dropdown-menu dropdown-menu-right">
+	      	      <a class="dropdown-item" href="#">Stars</a>
+	      	      <a class="dropdown-item" href="#">Forks</a>
+	      	      <a class="dropdown-item" href="#">Open Issues</a>
+	      	    </div>
+	      	  </div>
+	      	</h1>
+	      	
+	      	<div class="bg-white rounded box-shadow">
+	      	  <div class="media text-muted pt-2">
+	      	    <img data-src="holder.js/32x32?theme=thumb&bg=007bff&fg=007bff&size=1" alt="" class="mr-2 rounded">
+	      	    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+	      	      <strong class="d-block text-gray-dark">@username</strong>
+	      	      Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+	      	    </p>
+	      	  </div>
+	      	  <div class="media text-muted pt-2">
+	      	    <img data-src="holder.js/32x32?theme=thumb&bg=e83e8c&fg=e83e8c&size=1" alt="" class="mr-2 rounded">
+	      	    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+	      	      <strong class="d-block text-gray-dark">@username</strong>
+	      	      Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+	      	    </p>
+	      	  </div>
+	      	  <div class="media text-muted pt-2">
+	      	    <img data-src="holder.js/32x32?theme=thumb&bg=6f42c1&fg=6f42c1&size=1" alt="" class="mr-2 rounded">
+	      	    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+	      	      <strong class="d-block text-gray-dark">@username</strong>
+	      	      Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+	      	    </p>
+	      	  </div>
+	      	</div>      	<h1 class="h2 py-2">Repository Information</h1>
+	      	<div class="py-3 table-responsive">
+	      	  <table class="table table-striped table-sm">
+	      	    <thead>
+	      	      <tr>
+	      	        <th>Name</th>
+	      	        <th>Description</th>
+	      	        <th>Stars</th>
+	      	        <th>Language</th>
+	      	        <th>Link</th>
+	      	      </tr>
+	      	    </thead>
+	      	    <tbody>
+	      	      <tr>
+	      	        <td>1,001</td>
+	      	        <td>Lorem</td>
+	      	        <td>ipsum</td>
+	      	        <td>dolor</td>
+	      	        <td>sit</td>
+	      	      </tr>
+	      	    </tbody>
+	      	  </table>
+	      	</div>
+	      </main>
+	    </div>
+	  </div>
+	  
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/githubuserviewer.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+  </body>
+</html>
